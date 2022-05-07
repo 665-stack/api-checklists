@@ -57,4 +57,8 @@ const calc3Nums = calc3(13, 23);
 console.log('calc3Nums -- ', calc3Nums)
 
 //========= checklist 4 ================
-const ages = [12, 34, 54, 18, 17, 35, 23, 29];
+const tips = [200, 500, 100, 49, 21, 1000, 400, 800];
+const tipsOutput = tips.map(num => num / 7)
+console.log('tipsOutput -- ', tipsOutput)
+
+//========== 
