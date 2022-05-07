@@ -61,4 +61,36 @@ const tips = [200, 500, 100, 49, 21, 1000, 400, 800];
 const tipsOutput = tips.map(num => num / 7)
 console.log('tipsOutput -- ', tipsOutput)
 
-//========== 
+//========== checklist 5 ===========
+// example of map : 
+const cousins = ['Asad', 'Tarek', 'Salma', 'Shovon', 'Shawon', 'Mim', 'Sazid', 'Sadia', 'Shahin', 'Mazid'];
+const NameLength = cousins.map(x => x.length);
+console.log('NameLength -- ', NameLength);
+
+// example of forEach :
+const NameLength2 = cousins.forEach(x => x.length)
+console.log('NameLength2 -- ', NameLength2)
+
+// example of filter : 
+const numbs = [23, 87, 10, 3, 8, 883, 32, 44, 23, 95, 36, 45];
+const bigNumbers = numbs.filter(num => num > 50);
+console.log('bigNumbers -- ', bigNumbers)
+
+// example of find : 
+const under50nums = numbs.find(num => num < 50);
+console.log('under50nums -- ', under50nums)
+
+
+
+
+/*
+ //map() ==> array er protuty upadan er jonno function ke call kore and shob function er result ke akti notun array te niye return kore.
+
+ //forEach() ==> atao onkta map() er motoi, just map return kore but forEach kore na.
+ 
+ //filter() ==> filter() kicu check point onujayi filter korbe; filter() array er protity upadaner modde jeta jeta shorto poron korbe taderke noton akter array te rekhe return kore. filter array return kore.
+
+ //find() ==> find() array er prothom je upadan shorto fullfill korbe shudo shei upadan ke return kore. find() element return korbe.
+
+
+*/
