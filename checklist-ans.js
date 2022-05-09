@@ -8,9 +8,7 @@ const Shahin = {
         fullName: 'Shirin Akter',
         work: 'House wife'
     },
-
     device: ['smartPhone', 'laptop', 'desktop', 'smartWatch'],
-
     salaryCalc: function (expense) {
         this.save = this.salary - expense;
         return this.save;
@@ -81,16 +79,34 @@ const under50nums = numbs.find(num => num < 50);
 console.log('under50nums -- ', under50nums)
 
 
-
-
 /*
+ Summary of about recent those things :
+
  //map() ==> array er protuty upadan er jonno function ke call kore and shob function er result ke akti notun array te niye return kore.
 
  //forEach() ==> atao onkta map() er motoi, just map return kore but forEach kore na.
- 
+
  //filter() ==> filter() kicu check point onujayi filter korbe; filter() array er protity upadaner modde jeta jeta shorto poron korbe taderke noton akter array te rekhe return kore. filter array return kore.
 
  //find() ==> find() array er prothom je upadan shorto fullfill korbe shudo shei upadan ke return kore. find() element return korbe.
-
-
 */
+
+//========== checklist 6 ==========
+const me = {
+    fullName: 'Mahmodul Hasan Shahin',
+    skinColor: 'white',
+    favColors: ['black', 'dark brown'],
+    gf: null,
+    salary: [12000, 10000, 20000]
+}
+const { fullName, gf, skinColor } = me;
+const [wear, others] = me.favColors;
+const balance = me.salary[1];
+console.log('me -- ', me)
+console.log('wear, others -- ', wear, others)
+console.log('balance -- ', balance)
+
+
+
+
+
