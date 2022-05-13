@@ -16,15 +16,29 @@
         margin-top: 50px;
     }
 
+    #users {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
     .user {
         background-image: linear-gradient(rgb(117, 81, 41), rgb(186, 119, 42));
         ;
         color: white;
         padding: 10px;
         width: 80%;
+        min-height: 400px;
         margin: 15px 10px 35px 10px;
         border-radius: 5px;
         text-align: center;
+    }
+
+    .user-title {
+        padding-top: 10px;
     }
 
     img {
@@ -32,16 +46,36 @@
         width: 90%;
     }
 
-    #users {
-        display: grid;
-        grid-template-columns: auto auto auto;
+    .imgDetails {
+        background-color: rgb(221, 237, 191);
+        width: 50%;
+        margin: auto;
+        padding: 20px;
+        border: 2px solid black;
+        border-radius: 10px;
+    }
+
+    .imgDetails img {
+        width: 40%;
+        margin: 10px 0px 50px 10px;
+    }
+
+    .imgDetails h4 {
+        text-align: center;
+        color: black;
+        font-weight: 900
     }
 </style>
 
 <body>
-
     </div>
     <h2>Nothing extra</h2>
+    <!-- user details after clicked  -->
+    <div id="img-datails">
+
+    </div>
+
+    <!-- user pic and title  -->
     <div id="users">
 
     </div>
